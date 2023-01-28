@@ -2,6 +2,7 @@ import React from 'react';
 import Img1 from './Img1.jpg'
 import Img2 from './Img2.jpg'
 import Img3 from './Img3.jpg'
+import { Outlet } from 'react-router-dom';
 
 
 function Homepage() {
@@ -51,7 +52,7 @@ function Homepage() {
     </button>
   </div>
 
-  
+  <Outlet/>
   </>
     
     
