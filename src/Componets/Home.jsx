@@ -26,7 +26,7 @@ function Homepage() {
         </div>
       </div>
       <div className="carousel-item">
-        <img src={Img2} className="d-block w-100" alt="..."/>
+        <img src={Img2} className="d-block w-100" alt=""/>
         <div className="carousel-caption">
           <h5>buy one get one free </h5>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime explicabo, aliquid eveniet deleniti, vero molestiae sunt aspernatur ipsam nostrum nisi omnis consectetur dolorum vitae saepe illo aut. Excepturi, cumque animi.</p>
