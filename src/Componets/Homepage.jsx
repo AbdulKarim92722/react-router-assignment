@@ -2,7 +2,6 @@ import React from 'react';
 import Img1 from './Img1.jpg'
 import Img2 from './Img2.jpg'
 import Img3 from './Img3.jpg'
-import { Outlet } from 'react-router-dom';
 
 
 function Homepage() {
@@ -22,7 +21,7 @@ function Homepage() {
         <div className="carousel-caption">
           <h5>We will purchase you the best Products</h5>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime explicabo, aliquid eveniet deleniti, vero molestiae sunt aspernatur ipsam nostrum nisi omnis consectetur dolorum vitae saepe illo aut. Excepturi, cumque animi.</p>
-          <p><link to="#" className="btn btn-light mt-3">Learn More</link></p>
+          <p><span className="btn btn-light mt-3">Learn More</span></p>
         </div>
       </div>
       <div className="carousel-item">
@@ -30,7 +29,7 @@ function Homepage() {
         <div className="carousel-caption">
           <h5>buy one get one free </h5>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime explicabo, aliquid eveniet deleniti, vero molestiae sunt aspernatur ipsam nostrum nisi omnis consectetur dolorum vitae saepe illo aut. Excepturi, cumque animi.</p>
-          <p><link to="#" className="btn btn-light mt-3">Learn More</link></p>
+          <p><span className="btn btn-light mt-3">Learn More</span></p>
         </div>
       </div>
       <div className="carousel-item">
@@ -38,7 +37,7 @@ function Homepage() {
         <div className="carousel-caption">
           <h5>return cashe posiblite</h5>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime explicabo, aliquid eveniet deleniti, vero molestiae sunt aspernatur ipsam nostrum nisi omnis consectetur dolorum vitae saepe illo aut. Excepturi, cumque animi.</p>
-          <p><link to="#" className="btn btn-light mt-3">Learn More</link></p>
+          <p><span className="btn btn-light mt-3">Learn More</span></p>
         </div>
       </div>
     </div>
@@ -52,7 +51,6 @@ function Homepage() {
     </button>
   </div>
 
-  <Outlet/>
   </>
     
     

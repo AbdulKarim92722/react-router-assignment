@@ -173,9 +173,7 @@ function Products() {
         <button class="buy-8">buy now</button>
     </div>
 </div>
-<section>
 
-</section>
 
     
   </> 
